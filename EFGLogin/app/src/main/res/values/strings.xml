@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EFGLogin</string>
+    <string name="facebook_application_id" translatable="false">888148518010025</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb888148518010025</string>
+</resources>
