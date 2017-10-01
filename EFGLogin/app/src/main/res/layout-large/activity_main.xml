@@ -8,16 +8,16 @@
     tools:context="com.example.asif047.efglogin.MainActivity">
 
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:gravity="center"
-    android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true"
-    android:textColor="#ffffff"
-    android:textStyle="bold|italic"
-    android:textSize="20dp"
-    android:text="You can tap back button to exit"
-    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+        android:text="You can tap back button to exit"
+        />
 
 </RelativeLayout>
