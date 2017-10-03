@@ -1,13 +1,56 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asif047.efglogin.HomeFragment">
+    tools:context="com.example.asif047.efglogin.HomeFragment"
+    android:background="@drawable/bangladesh_states_map"
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello from home fragment" />
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:text="Hello from home fragment"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp" />
 
-</FrameLayout>
+    <Button
+        android:id="@+id/button_rangpur"
+        android:layout_width="59dp"
+        android:layout_height="34dp"
+        android:text="Button"
+        tools:layout_editor_absoluteY="38dp"
+        tools:layout_editor_absoluteX="30dp"
+
+
+        android:color="#66FF0000"
+         android:alpha="0.0"
+    />
+
+    <Button
+        android:id="@+id/buttonRajshahi"
+        android:layout_width="58dp"
+        android:layout_height="34dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="161dp"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+    <Button
+        android:id="@+id/button_khulna"
+        android:layout_width="56dp"
+        android:layout_height="27dp"
+        android:text="Button"
+        tools:layout_editor_absoluteY="289dp"
+        tools:layout_editor_absoluteX="76dp"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+
+        />
+
+</android.support.constraint.ConstraintLayout>
