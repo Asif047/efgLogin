@@ -11,20 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".Splash_screen">
-
-
+        <activity android:name=".Splash_screen" />
+        <activity
+            android:name=".mapActivity"
+            android:label="@string/title_activity_map">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity android:name=".DhakaDivisionActivity" />
+        <activity android:name=".RajshahiDivisionActivity" />
+        <activity android:name=".RangpurDivisionActivity" />
+        <activity android:name=".SylhetDivisionActivity" />
+        <activity android:name=".KhulnaDivisionActivity" />
+        <activity android:name=".BarishalDivisionActivity" />
+        <activity android:name=".ChittagongDivisionActivity"></activity>
     </application>
 
 </manifest>
