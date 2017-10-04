@@ -11,18 +11,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".MainActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Splash_screen" />
         <activity
             android:name=".mapActivity"
             android:label="@string/title_activity_map">
+=======
+        <activity android:name=".MainActivity" ></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Splash_screen">
+>>>>>>> local6
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".DhakaDivisionActivity" />
         <activity android:name=".RajshahiDivisionActivity" />
         <activity android:name=".RangpurDivisionActivity" />
@@ -30,6 +37,20 @@
         <activity android:name=".KhulnaDivisionActivity" />
         <activity android:name=".BarishalDivisionActivity" />
         <activity android:name=".ChittagongDivisionActivity"></activity>
+=======
+        <activity
+            android:name=".mapActivity"
+            android:label="@string/title_activity_map">
+
+        </activity>
+        <activity android:name=".Divisions.DhakaDivisionActivity" />
+        <activity android:name=".Divisions.RajshahiDivisionActivity" />
+        <activity android:name=".Divisions.RangpurDivisionActivity" />
+        <activity android:name=".Divisions.SylhetDivisionActivity" />
+        <activity android:name=".Divisions.KhulnaDivisionActivity" />
+        <activity android:name=".Divisions.BarishalDivisionActivity" />
+        <activity android:name=".Divisions.ChittagongDivisionActivity"></activity>
+>>>>>>> local6
     </application>
 
 </manifest>

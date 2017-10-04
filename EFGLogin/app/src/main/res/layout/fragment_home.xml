@@ -12,42 +12,71 @@
 
     <Button
         android:id="@+id/button_rangpur"
+<<<<<<< HEAD
         android:layout_width="67dp"
         android:layout_height="32dp"
+=======
+        android:layout_width="77dp"
+        android:layout_height="62dp"
+>>>>>>> local6
 
         android:text="Rangpur"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="40dp"
+=======
+        android:layout_marginTop="30dp"
+>>>>>>> local6
         android:layout_marginLeft="25dp"
         />
 
     <Button
         android:id="@+id/button_rajshahi"
+<<<<<<< HEAD
         android:layout_width="67dp"
         android:layout_height="32dp"
+=======
+        android:layout_width="77dp"
+        android:layout_height="62dp"
+>>>>>>> local6
 
         android:text="Rajshahi"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="160dp"
         android:layout_marginLeft="55dp"
+=======
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="45dp"
+>>>>>>> local6
         />
 
 
     <Button
         android:id="@+id/button_dhaka"
+<<<<<<< HEAD
         android:layout_width="67dp"
         android:layout_height="32dp"
+=======
+        android:layout_width="77dp"
+        android:layout_height="62dp"
+>>>>>>> local6
 
         android:text="Dhaka"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="165dp"
         android:layout_marginLeft="160dp"
+=======
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="150dp"
+>>>>>>> local6
         />
 
 
@@ -55,14 +84,23 @@
     <Button
         android:id="@+id/button_sylhet"
         android:layout_width="67dp"
+<<<<<<< HEAD
         android:layout_height="32dp"
+=======
+        android:layout_height="62dp"
+>>>>>>> local6
 
         android:text="Shylhet"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="155dp"
         android:layout_marginLeft="260dp"
+=======
+        android:layout_marginTop="145dp"
+        android:layout_marginLeft="250dp"
+>>>>>>> local6
         />
 
 
@@ -70,43 +108,71 @@
     <Button
         android:id="@+id/button_khulna"
         android:layout_width="67dp"
+<<<<<<< HEAD
         android:layout_height="32dp"
+=======
+        android:layout_height="70dp"
+>>>>>>> local6
 
         android:text="Khulna"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="285dp"
         android:layout_marginLeft="70dp"
+=======
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="60dp"
+>>>>>>> local6
         />
 
 
 
     <Button
         android:id="@+id/button_barishal"
+<<<<<<< HEAD
         android:layout_width="67dp"
         android:layout_height="32dp"
+=======
+        android:layout_width="70dp"
+        android:layout_height="72dp"
+>>>>>>> local6
 
         android:text="Barishal"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="350dp"
         android:layout_marginLeft="150dp"
         />
+=======
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true" />
+>>>>>>> local6
 
 
 
     <Button
         android:id="@+id/button_chittagong"
         android:layout_width="67dp"
+<<<<<<< HEAD
         android:layout_height="32dp"
+=======
+        android:layout_height="62dp"
+>>>>>>> local6
 
         android:text="Chittagong"
 
         android:color="#66FF0000"
         android:alpha="0.0"
+<<<<<<< HEAD
         android:layout_marginTop="300dp"
+=======
+        android:layout_marginTop="260dp"
+>>>>>>> local6
         android:layout_marginLeft="220dp"
         />
 
