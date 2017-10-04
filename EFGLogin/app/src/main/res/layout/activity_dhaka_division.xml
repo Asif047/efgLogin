@@ -1,18 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+
+<TextView
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.asif047.efglogin.DhakaDivisionActivity">
+    android:layout_height="wrap_content"
+    android:text="Dhaka Division"
+    android:gravity="center"
+    android:textColor="#0d2e99"
+    android:textSize="25dp"
+    android:textStyle="bold|italic"
+    />
 
 
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="0dp"
+android:layout_weight="1" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <!-- Everything you want to scroll goes here -->
 
-    <TextView
+
+    <Button
+        android:text="Dhaka"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dhaka division"
-        android:gravity="center"
-        />
 
-</RelativeLayout>
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Narayanganj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Gazipur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+
+
+    <Button
+        android:text="Kishoreganj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+
+
+    <Button
+        android:text="Manikganj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:text="Munshiganj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:text="Narsingdi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Tangail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Faridpur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Gopalganj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+
+    <Button
+        android:text="Madaripur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Rajbari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:text="Shariatpur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
+</ScrollView>
+    </LinearLayout>
