@@ -11,6 +11,14 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.asif047.efglogin.Divisions.BarishalDivisionActivity;
+import com.example.asif047.efglogin.Divisions.ChittagongDivisionActivity;
+import com.example.asif047.efglogin.Divisions.DhakaDivisionActivity;
+import com.example.asif047.efglogin.Divisions.KhulnaDivisionActivity;
+import com.example.asif047.efglogin.Divisions.RajshahiDivisionActivity;
+import com.example.asif047.efglogin.Divisions.RangpurDivisionActivity;
+import com.example.asif047.efglogin.Divisions.SylhetDivisionActivity;
+
 
 /**
  * A simple {@link Fragment} subclass.
