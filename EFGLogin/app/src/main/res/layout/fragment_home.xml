@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asif047.efglogin.HomeFragment"
+    android:background="@drawable/bangladesh_states_map"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/button_rangpur"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Rangpur"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="25dp"
+        />
+
+    <Button
+        android:id="@+id/button_rajshahi"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Rajshahi"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="55dp"
+        />
+
+
+    <Button
+        android:id="@+id/button_dhaka"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Dhaka"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="160dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_sylhet"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Shylhet"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="155dp"
+        android:layout_marginLeft="260dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_khulna"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Khulna"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="70dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_barishal"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Barishal"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="150dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/button_chittagong"
+        android:layout_width="67dp"
+        android:layout_height="32dp"
+
+        android:text="Chittagong"
+
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="220dp"
+        />
+
+
+
+
+
+</RelativeLayout>
