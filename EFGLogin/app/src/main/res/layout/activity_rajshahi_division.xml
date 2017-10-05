@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rajshahi Division"
+        android:gravity="center"
+        android:textColor="#0d2e99"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- Everything you want to scroll goes here -->
+
+
+            <Button
+                android:text="Bogra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Rajshahi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Naogaon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+
+            <Button
+                android:text="Chapainawabganj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+
+            <Button
+                android:text="Pabna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+            <Button
+                android:text="Sirajganj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+            <Button
+                android:text="Joypurhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
