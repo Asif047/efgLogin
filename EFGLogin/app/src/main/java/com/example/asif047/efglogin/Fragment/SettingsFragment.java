@@ -1,4 +1,4 @@
-package com.example.asif047.efglogin;
+package com.example.asif047.efglogin.Fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import com.example.asif047.efglogin.R;
 
 
 /**
@@ -81,7 +83,7 @@ public class SettingsFragment extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            Toast.makeText(context,"Settings Fragment Attached",Toast.LENGTH_SHORT).show();
+            Toast.makeText(context,"Settings Fragment Attached",Toast.LENGTH_LONG).show();
         }
     }
 

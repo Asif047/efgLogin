@@ -1,15 +1,15 @@
-package com.example.asif047.efglogin.Divisions;
+package com.example.asif047.efglogin.Division;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.asif047.efglogin.R;
 
-public class KhulnaDivisionActivity extends AppCompatActivity {
+public class SylhetDivisionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_khulna_division);
+        setContentView(R.layout.activity_sylhet_division);
     }
 }
