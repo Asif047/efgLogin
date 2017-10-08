@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-<<<<<<< HEAD
-    tools:context="com.example.asif047.efglogin.BarishalDivisionActivity">
-=======
-    tools:context="com.example.asif047.efglogin.Divisions.BarishalDivisionActivity">
->>>>>>> local6
+    tools:context="com.example.asif047.efglogin.Division.BarishalDivisionActivity">
 
-
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Barishal division"
-        android:gravity="center"
-        />
-
-
-
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

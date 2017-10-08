@@ -1,4 +1,4 @@
-package com.example.asif047.efglogin;
+package com.example.asif047.efglogin.Fragment;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,19 +9,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.Toast;
 
-<<<<<<< HEAD
-=======
-import com.example.asif047.efglogin.Divisions.BarishalDivisionActivity;
-import com.example.asif047.efglogin.Divisions.ChittagongDivisionActivity;
-import com.example.asif047.efglogin.Divisions.DhakaDivisionActivity;
-import com.example.asif047.efglogin.Divisions.KhulnaDivisionActivity;
-import com.example.asif047.efglogin.Divisions.RajshahiDivisionActivity;
-import com.example.asif047.efglogin.Divisions.RangpurDivisionActivity;
-import com.example.asif047.efglogin.Divisions.SylhetDivisionActivity;
+import com.example.asif047.efglogin.Division.BarishalDivisionActivity;
+import com.example.asif047.efglogin.Division.ChittagongDivisionActivity;
+import com.example.asif047.efglogin.Division.DhakaDivisionActivity;
+import com.example.asif047.efglogin.Division.KhulnaDivisionActivity;
+import com.example.asif047.efglogin.Division.RajshahiDivisionActivity;
+import com.example.asif047.efglogin.Division.RangpurDivisionActivity;
+import com.example.asif047.efglogin.Division.SylhetDivisionActivity;
+import com.example.asif047.efglogin.R;
 
->>>>>>> local6
 
 /**
  * A simple {@link Fragment} subclass.
@@ -78,103 +75,81 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        View view= inflater.inflate(R.layout.fragment_home, container, false);
+
+        Button btnDhaka=(Button)view.findViewById(R.id.dhaka_division_button);
+        Button btnRangpur=(Button)view.findViewById(R.id.rangpur_division_button);
+        Button btnRajshahi=(Button)view.findViewById(R.id.rajshahi_division_button);
+        Button btnSylhet=(Button)view.findViewById(R.id.sylhet_division_button);
+        Button btnKhulna=(Button)view.findViewById(R.id.khulna_division_button);
+        Button btnBarishal=(Button)view.findViewById(R.id.barishal_division_button);
+        Button btnChittagong=(Button)view.findViewById(R.id.chittagong_division_button);
 
 
-        //new starts
 
-       View view=inflater.inflate(R.layout.fragment_home, container, false);
-
-        Button dhakaBtn=(Button)view.findViewById(R.id.button_dhaka);
-        Button rajshahiBtn=(Button)view.findViewById(R.id.button_rajshahi);
-        Button rangpurBtn=(Button)view.findViewById(R.id.button_rangpur);
-        Button khulnaBtn=(Button)view.findViewById(R.id.button_khulna);
-        Button sylhetBtn=(Button)view.findViewById(R.id.button_sylhet);
-        Button barishalBtn=(Button)view.findViewById(R.id.button_barishal);
-        Button chittagongBtn=(Button)view.findViewById(R.id.button_chittagong);
-
-
-        dhakaBtn.setOnClickListener(new View.OnClickListener() {
+        btnDhaka.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),DhakaDivisionActivity.class);
                 startActivity(intent);
-
-                //Toast.makeText(getActivity(),"Dhaka division",Toast.LENGTH_SHORT).show();
             }
         });
 
-
-        rajshahiBtn.setOnClickListener(new View.OnClickListener() {
+        btnRajshahi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),RajshahiDivisionActivity.class);
                 startActivity(intent);
-
             }
         });
 
-
-
-        rangpurBtn.setOnClickListener(new View.OnClickListener() {
+        btnRangpur.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),RangpurDivisionActivity.class);
                 startActivity(intent);
-
             }
         });
 
 
 
-        sylhetBtn.setOnClickListener(new View.OnClickListener() {
+        btnSylhet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),SylhetDivisionActivity.class);
                 startActivity(intent);
-
             }
         });
 
 
 
-        khulnaBtn.setOnClickListener(new View.OnClickListener() {
+        btnKhulna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),KhulnaDivisionActivity.class);
                 startActivity(intent);
-
             }
         });
 
-
-
-        barishalBtn.setOnClickListener(new View.OnClickListener() {
+        btnBarishal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),BarishalDivisionActivity.class);
                 startActivity(intent);
-
             }
         });
 
 
-
-        chittagongBtn.setOnClickListener(new View.OnClickListener() {
+        btnChittagong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(getActivity(),ChittagongDivisionActivity.class);
                 startActivity(intent);
-
             }
         });
 
 
-
-
         return view;
-
-
-        //new ends
 
     }
 
@@ -191,7 +166,7 @@ public class HomeFragment extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            Toast.makeText(context,"Home Fragment Attached",Toast.LENGTH_SHORT).show();
+           // Toast.makeText(context,"Home Fragment Attached",Toast.LENGTH_LONG).show();
         }
     }
 

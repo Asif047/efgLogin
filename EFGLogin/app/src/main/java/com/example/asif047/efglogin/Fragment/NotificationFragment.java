@@ -1,4 +1,4 @@
-package com.example.asif047.efglogin;
+package com.example.asif047.efglogin.Fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,8 +7,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.asif047.efglogin.R;
 
 
 /**
@@ -66,21 +67,7 @@ public class NotificationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view=inflater.inflate(R.layout.fragment_notification, container, false);
-
-
-        Button notificationBtn=(Button)view.findViewById(R.id.notification_button);
-
-
-        notificationBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getActivity(),"Notification button clicked",Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        return view;
-
+        return inflater.inflate(R.layout.fragment_notification, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -96,7 +83,7 @@ public class NotificationFragment extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            Toast.makeText(context,"Notification Fragment Attached",Toast.LENGTH_SHORT).show();
+            Toast.makeText(context,"Notification Fragment Attached",Toast.LENGTH_LONG).show();
         }
     }
 

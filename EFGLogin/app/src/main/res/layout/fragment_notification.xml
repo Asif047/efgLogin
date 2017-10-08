@@ -2,19 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asif047.efglogin.NotificationFragment">
+    tools:context="com.example.asif047.efglogin.Fragment.NotificationFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello from Notification Fragment" />
-
-
-    <Button
-        android:id="@+id/notification_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Notification"/>
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
