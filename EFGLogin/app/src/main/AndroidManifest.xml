@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
         <activity android:name=".ProfileActivity" />
-        <activity android:name=".Splash_screen"></activity>
+        <activity android:name=".Splash_screen" />
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_map" />
@@ -24,17 +24,18 @@
         <activity android:name=".Division.KhulnaDivisionActivity" />
         <activity android:name=".Division.BarishalDivisionActivity" />
         <activity android:name=".Division.ChittagongDivisionActivity" />
-        <activity android:name=".Hotel.HotelActivity">
-
-        </activity>
+        <activity android:name=".Hotel.HotelActivity"></activity>
         <activity android:name=".Tourist.TouristActivity">
 
+        </activity>
+        <activity android:name=".Hospital.HospitalActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
 
         </activity>
     </application>
