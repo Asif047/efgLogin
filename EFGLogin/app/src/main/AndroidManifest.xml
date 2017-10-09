@@ -13,10 +13,6 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
 
-        </activity>
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".Splash_screen">
-
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,6 +21,27 @@
             </intent-filter>
 
         </activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".Splash_screen">
+
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map">
+
+
+
+        </activity>
+        <activity android:name=".Division.DhakaDivisionActivity" />
+        <activity android:name=".Division.RangpurDivisionActivity" />
+        <activity android:name=".Division.RajshahiDivisionActivity" />
+        <activity android:name=".Division.SylhetDivisionActivity" />
+        <activity android:name=".Division.KhulnaDivisionActivity" />
+        <activity android:name=".Division.BarishalDivisionActivity" />
+        <activity android:name=".Division.ChittagongDivisionActivity" />
+        <activity android:name=".Hotel.HotelActivity"></activity>
+        <activity android:name=".Tourist.TouristActivity"></activity>
+        <activity android:name=".Hospital.HospitalActivity"></activity>
     </application>
 
 </manifest>
