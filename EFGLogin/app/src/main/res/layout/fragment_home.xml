@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bangladesh_states_map"
+    tools:context="com.example.asif047.efglogin.Fragment.HomeFragment">
+
+
+
+    <Button
+        android:id="@+id/rangpur_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+
+
+        />
+
+    <Button
+        android:id="@+id/rajshahi_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+
+    <Button
+        android:id="@+id/dhaka_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="150dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+
+    <Button
+        android:id="@+id/sylhet_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="250dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+
+    <Button
+        android:id="@+id/khulna_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="60dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+
+    <Button
+        android:id="@+id/barishal_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="140dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+    <Button
+        android:id="@+id/chittagong_division_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="210dp"
+        android:color="#66FF0000"
+        android:alpha="0.0"
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asif047.efglogin.Division.RangpurDivisionActivity">
+
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- Everything you want to scroll goes here -->
+
+
+            <Button
+                android:text="Dinajpur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"
+                android:onClick="goToDhakaDistrictOnClick"
+                />
+
+            <Button
+                android:text="Gaibandha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Kurigram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+
+            <Button
+                android:text="Lalmonirhat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Nilphamari"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Pachagarh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Rangpur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:text="Thakurgaon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="5dp"/>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
