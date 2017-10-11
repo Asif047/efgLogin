@@ -4,6 +4,8 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,18 +13,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
         <activity android:name=".ProfileActivity" />
         <activity android:name=".Splash_screen">
-
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
+        </activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".Division.DhakaDivisionActivity" />
+        <activity android:name=".Division.RangpurDivisionActivity" />
+        <activity android:name=".Division.RajshahiDivisionActivity" />
+        <activity android:name=".Division.SylhetDivisionActivity" />
+        <activity android:name=".Division.KhulnaDivisionActivity" />
+        <activity android:name=".Division.BarishalDivisionActivity" />
+        <activity android:name=".Division.ChittagongDivisionActivity" />
+        <activity android:name=".Hotel.HotelActivity" />
+        <activity android:name=".Tourist.TouristActivity">
+
+
+
+
+        </activity>
+        <activity android:name=".Hospital.HospitalActivity"></activity>
+        <activity android:name=".District.DistrictActivity"></activity>
+        <activity android:name=".ShowDistrict.ShowDistrictActivity">
+
+
+
+
+
 
         </activity>
     </application>
