@@ -6,18 +6,18 @@
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home" />
 
-
-
     <item
         android:id="@+id/navigation_blog"
-        android:icon="@drawable/ic_blog_black_24dp"
+        android:icon="@drawable/ic_blog_24dp"
         android:title="@string/title_blog" />
-
 
     <item
         android:id="@+id/navigation_featured_places"
-        android:icon="@drawable/ic_featured_places_black_24dp"
-        android:title="@string/title_featured_places" />
+        android:icon="@drawable/ic_featured_places_24dp"
+        android:title="@string/title_featured_places"
+       />
+
+
 
     <item
         android:id="@+id/navigation_notifications"
@@ -25,12 +25,10 @@
         android:title="@string/title_notifications" />
 
 
-
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_settings_black_24dp"
-        android:title="@string/title_settings" />
-
-
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="@string/title_settings"
+        />
 
 </menu>

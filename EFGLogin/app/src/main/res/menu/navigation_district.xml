@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tourist"
+        android:icon="@drawable/ic_tourist_24dp"
+        android:title="@string/title_tourist" />
+
+    <item
+        android:id="@+id/navigation_hotel"
+        android:icon="@drawable/ic_hotel_24dp"
+        android:title="@string/title_hotel" />
+
+    <item
+        android:id="@+id/navigation_hospital"
+        android:icon="@drawable/ic_hospital_24dp"
+        android:title="@string/title_hospital"
+        />
+
+
+    <item
+        android:id="@+id/navigation_security"
+        android:icon="@drawable/ic_security_24dp"
+        android:title="@string/title_security"
+        />
+
+
+
+</menu>

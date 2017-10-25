@@ -2,12 +2,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asif047.efglogin.SettingsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context="com.example.asif047.efglogin.Fragment.SettingsFragment">
+
+
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello from Settings Fragment" />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <Switch
+            android:id="@+id/sound_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Set Sound"
+
+            android:layout_marginRight="20dp"
+
+            android:checked="false"
+            />
+
+        <TextView
+            android:id="@+id/sound_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sound"
+            android:gravity="center"
+
+            android:layout_marginTop="10dp"
+
+
+            />
+
+    </LinearLayout>
+
+
+
+
 
 </FrameLayout>

@@ -1,53 +1,47 @@
 package com.example.asif047.efglogin;
 
-<<<<<<< HEAD
-=======
+import android.content.DialogInterface;
 import android.content.Intent;
->>>>>>> local6
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-<<<<<<< HEAD
-import android.view.MenuItem;
-import android.widget.TextView;
-=======
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.asif047.efglogin.Fragment.BlogFragment;
+import com.example.asif047.efglogin.Fragment.FeaturedPlacesFragment;
+import com.example.asif047.efglogin.Fragment.HomeFragment;
+import com.example.asif047.efglogin.Fragment.NotificationFragment;
+import com.example.asif047.efglogin.Fragment.SettingsFragment;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
->>>>>>> local6
 
-public class mapActivity extends AppCompatActivity {
-
+public class MapActivity extends AppCompatActivity {
 
 
-<<<<<<< HEAD
-=======
+
+    //new starts
+    public static final String DEFAULT="N/A";
+    //new ends
+
 
     private FirebaseAuth firebaseAuth;
 
->>>>>>> local6
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> local6
             FragmentManager fragmentManager=getSupportFragmentManager();
             FragmentTransaction transaction=fragmentManager.beginTransaction();
-
 
             switch (item.getItemId()) {
                 case R.id.navigation_home:
@@ -59,14 +53,20 @@ public class mapActivity extends AppCompatActivity {
 
                     return true;
                 case R.id.navigation_featured_places:
+
                     transaction.replace(R.id.content,new FeaturedPlacesFragment()).commit();
                     return true;
+
                 case R.id.navigation_notifications:
+
                     transaction.replace(R.id.content,new NotificationFragment()).commit();
                     return true;
+
                 case R.id.navigation_settings:
+
                     transaction.replace(R.id.content,new SettingsFragment()).commit();
                     return true;
+
             }
             return false;
         }
@@ -79,11 +79,40 @@ public class mapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_map);
 
 
-<<<<<<< HEAD
-=======
+
+
+
+
+
+        SharedPreferences sharedPreferences=getSharedPreferences("SoundData",this.MODE_PRIVATE);
+
+        String soundInfo=sharedPreferences.getString("sound_info",DEFAULT);
+
+//        if(soundInfo.equals(DEFAULT))
+//        {
+//            Toast.makeText(this,"No data was found",Toast.LENGTH_LONG).show();
+//        }
+//        else
+//        {
+//            Toast.makeText(this,"Data loaded successfully",Toast.LENGTH_LONG).show();
+//        }
+
+
+
+
+        if(soundInfo.equals("Sound off"))
+        startService(new Intent(MapActivity.this, SoundService.class));
+
+        else
+            stopService(new Intent(MapActivity.this, SoundService.class));
+
+        //super.onCreate(savedInstanceState);
+
+
+
+
+
         //new starts
-
-
         firebaseAuth=FirebaseAuth.getInstance();
 
         if(firebaseAuth.getCurrentUser()==null)
@@ -94,73 +123,69 @@ public class mapActivity extends AppCompatActivity {
 
         FirebaseUser user=firebaseAuth.getCurrentUser();
 
+        Toast.makeText(MapActivity.this,user.getDisplayName(),Toast.LENGTH_LONG).show();
 
-
-        if(user.getDisplayName()!=null)
-            Toast.makeText(mapActivity.this,user.getDisplayName(),Toast.LENGTH_LONG).show();
-        if(user.getDisplayName()==null)
-            Toast.makeText(mapActivity.this,user.getDisplayName(),Toast.LENGTH_LONG).show();
+        //new neds
 
 
 
-
-
-        //new ends
-
-
-
->>>>>>> local6
-        //By default showing home fragment
         FragmentManager fragmentManager=getSupportFragmentManager();
         FragmentTransaction transaction=fragmentManager.beginTransaction();
         transaction.replace(R.id.content,new HomeFragment()).commit();
-
 
 
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
-<<<<<<< HEAD
-=======
-
-
-    //new starts
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater=getMenuInflater();
-        inflater.inflate(R.menu.map_menu,menu);
+        inflater.inflate(R.menu.main_menu,menu);
         return true;
     }
 
-
-    //new ends
-//
-//    public void goToHome(MenuItem item) {
-//
-//        transaction.replace(R.id.content,new HomeFragment()).commit();
-//    }
-//
-//    public void goToBlog(MenuItem item) {
-//    }
-//
-//    public void goToFeaturedPlaces(MenuItem item) {
-//    }
-//
-//    public void goToNotifications(MenuItem item) {
-//    }
-//
-//    public void goToSettings(MenuItem item) {
-//    }
-
-    public void goToLogOut(MenuItem item) {
+    public void logOutOnClick(MenuItem item) {
 
         firebaseAuth.signOut();
         finish();
         startActivity(new Intent(this,MainActivity.class));
 
     }
->>>>>>> local6
+
+
+
+
+
+
+
+    //back button operation starts
+
+    @Override
+    public void onBackPressed() {
+        new AlertDialog.Builder(this)
+                .setMessage("Are you sure you want to exit?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        finish();
+                        Intent intent = new Intent(Intent.ACTION_MAIN);
+                        intent.addCategory(Intent.CATEGORY_HOME);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        startActivity(intent);
+
+                    }
+                })
+                .setNegativeButton("No", null)
+                .show();
+    }
+
+
+    //back button operation ends
+
+
+
+
+
 }

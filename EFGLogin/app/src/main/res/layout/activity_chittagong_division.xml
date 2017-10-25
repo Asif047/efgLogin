@@ -1,19 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asif047.efglogin.Division.ChittagongDivisionActivity">
 
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Chittagong Division"
-        android:gravity="center"
-        android:textColor="#0d2e99"
-        android:textSize="25dp"
-        android:textStyle="bold|italic"
-        />
+
 
 
     <ScrollView
@@ -28,11 +24,13 @@
 
 
             <Button
-                android:text="Cox's Bazar"
+                android:text="Cox's bazar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:layout_margin="5dp"/>
+                android:layout_margin="5dp"
+                android:onClick="goToDhakaDistrictOnClick"
+                />
 
             <Button
                 android:text="Feni"
@@ -83,7 +81,7 @@
                 android:layout_margin="5dp"/>
 
             <Button
-                android:text="Khagrachhari"
+                android:text="Khagrachari"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
@@ -112,6 +110,11 @@
                 android:layout_margin="5dp"/>
 
 
+
         </LinearLayout>
     </ScrollView>
+
+
+
+
 </LinearLayout>
