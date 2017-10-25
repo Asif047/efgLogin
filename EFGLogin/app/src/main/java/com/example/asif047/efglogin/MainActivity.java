@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         FirebaseAuth auth = FirebaseAuth.getInstance();
 
 
@@ -58,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (auth.getCurrentUser() != null) {
             // already signed in
-            startActivity(new Intent(MainActivity.this, mapActivity.class));
+            startActivity(new Intent(MainActivity.this, MapActivity.class));
             finish();
         } else {
             // not signed in
@@ -66,12 +68,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     AuthUI.getInstance()
                             .createSignInIntentBuilder()
                             .setIsSmartLockEnabled(false)
-                            .setProviders(Arrays.asList(new AuthUI.IdpConfig.Builder(AuthUI.FACEBOOK_PROVIDER).build(),
+                            .setProviders(Arrays.asList(
                                     new AuthUI.IdpConfig.Builder(AuthUI.GOOGLE_PROVIDER).build(),
                                     new AuthUI.IdpConfig.Builder(AuthUI.EMAIL_PROVIDER).build()
                             ))
                             .setTheme(R.style.LoginTheme)
-                            .setLogo(R.mipmap.logo)
                             .build(),
                     RC_SIGN_IN);
 
@@ -88,7 +89,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             IdpResponse response = IdpResponse.fromResultIntent(data);
             // Successfully signed in
             if (resultCode == ResultCodes.OK) {
-                startActivity(new Intent(MainActivity.this,mapActivity.class));
+                startActivity(new Intent(MainActivity.this,MapActivity.class));
                 finish();
                 return;
             } else {

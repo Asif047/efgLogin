@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+
+    >
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/small_image_blog"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:layout_margin="10dp"
+
+       />
+
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/small_image_blog"-->
+        <!--android:layout_width="60dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_margin="15dp"-->
+        <!--android:background="@color/cardview_dark_background"-->
+        <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        android:layout_margin="10dp"
+        >
+
+
+
+
+        <TextView
+            android:id="@+id/title_textview_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:text="Place name"
+            />
+
+
+
+
+
+
+
+
+
+
+        <ImageView
+            android:id="@+id/large_image_imageview_blog"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/tw__composer_white"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/details_textview_blog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Details"
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>
