@@ -76,7 +76,6 @@
 
 
 
-
         <TextView
             android:id="@+id/details_textview_security"
             android:layout_width="match_parent"

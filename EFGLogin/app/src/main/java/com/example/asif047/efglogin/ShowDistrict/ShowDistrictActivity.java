@@ -82,6 +82,8 @@ public class ShowDistrictActivity extends AppCompatActivity {
 
                 showDistricts=response.body();
 
+               // Toast.makeText(ShowDistrictActivity.this,""+response.message(),Toast.LENGTH_LONG).show();
+
                // Toast.makeText(ShowDistrictActivity.this,""+showDistricts.get(0).getDistrictName(),Toast.LENGTH_LONG).show();
 
                 adapterShowDistrict=new RecyclerAdapterShowDistrict(ShowDistrictActivity.this,showDistricts);

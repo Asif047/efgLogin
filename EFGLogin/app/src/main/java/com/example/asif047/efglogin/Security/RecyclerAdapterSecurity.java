@@ -82,7 +82,7 @@ public class RecyclerAdapterSecurity extends RecyclerView.Adapter<RecyclerAdapte
 
 
         TextView place_name, phone, address, datails;
-
+        ImageView smallIV, largeIV;
 
         ImageView phoneIV;
 
@@ -98,7 +98,6 @@ public class RecyclerAdapterSecurity extends RecyclerView.Adapter<RecyclerAdapte
             phone = (TextView) itemView.findViewById(R.id.phone_textview_security);
             address = (TextView) itemView.findViewById(R.id.address_textview_security);
             datails = (TextView) itemView.findViewById(R.id.details_textview_security);
-
 
 
             phoneIV = (ImageView) itemView.findViewById(R.id.phone_imageview);
