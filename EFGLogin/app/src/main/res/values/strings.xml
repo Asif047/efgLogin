@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Discover Bangladesh</string>
+    <string name="app_name">Hello Bangladesh</string>
     <string name="facebook_application_id" translatable="false">888148518010025</string>
     <string name="facebook_login_protocol_scheme" translatable="false">fb888148518010025</string>
     <string name="title_activity_map">MapActivity</string>

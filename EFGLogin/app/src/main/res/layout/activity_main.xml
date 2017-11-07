@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@mipmap/bg_login"
-    tools:context="com.example.asif047.efglogin.MainActivity">
+    android:background="@drawable/discover_bd_splash"
+    tools:context="com.nanotech.asif047.efglogin.MainActivity">
 
 
 

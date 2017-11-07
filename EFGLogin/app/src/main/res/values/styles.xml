@@ -20,7 +20,7 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:textColorSecondary">@android:color/white</item>
-        <item name="android:windowBackground">@mipmap/bg_login</item>
+        <item name="android:windowBackground">@drawable/discover_bd_splash</item>
 
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

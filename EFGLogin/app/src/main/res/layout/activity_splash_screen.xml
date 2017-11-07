@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asif047.efglogin.Splash_screen">
+    tools:context="com.nanotech.asif047.efglogin.Splash_screen">
 
 
 
@@ -12,7 +12,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/splash2"
+        android:background="@drawable/discover_bd_splash"
         />
 
 

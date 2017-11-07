@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.asif047.efglogin">
+    package="com.nanotech.DiscoverBangladesh">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -12,11 +12,11 @@
         android:roundIcon="@mipmap/dbangladesh_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.MainActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ProfileActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.ProfileActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Splash_screen"
+        <activity android:name="com.nanotech.DiscoverBangladesh.Splash_screen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,28 +24,28 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.MapActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Division.DhakaDivisionActivity" />
-        <activity android:name=".Division.RangpurDivisionActivity" />
-        <activity android:name=".Division.RajshahiDivisionActivity" />
-        <activity android:name=".Division.SylhetDivisionActivity" />
-        <activity android:name=".Division.KhulnaDivisionActivity" />
-        <activity android:name=".Division.BarishalDivisionActivity" />
-        <activity android:name=".Division.ChittagongDivisionActivity" />
-        <activity android:name=".Hotel.HotelActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.DhakaDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.RangpurDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.RajshahiDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.SylhetDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.KhulnaDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.BarishalDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Division.ChittagongDivisionActivity" />
+        <activity android:name="com.nanotech.DiscoverBangladesh.Hotel.HotelActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".Tourist.TouristActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.Tourist.TouristActivity"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".Hospital.HospitalActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.Hospital.HospitalActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".District.DistrictActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.District.DistrictActivity"
             android:screenOrientation="portrait"/>
-        <activity android:name=".ShowDistrict.ShowDistrictActivity"
+        <activity android:name="com.nanotech.DiscoverBangladesh.ShowDistrict.ShowDistrictActivity"
             android:screenOrientation="portrait"></activity>
 
         <service
-            android:name=".SoundService"
+            android:name="com.nanotech.DiscoverBangladesh.SoundService"
             android:enabled="true"
             android:exported="true"></service>
     </application>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.asif047.efglogin.ProfileActivity">
+    tools:context="com.nanotech.asif047.efglogin.ProfileActivity">
 
 
     <LinearLayout

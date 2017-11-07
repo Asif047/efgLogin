@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/map2"
-    tools:context="com.example.asif047.efglogin.Fragment.HomeFragment">
+    tools:context="com.nanotech.asif047.efglogin.Fragment.HomeFragment">
 
 
 

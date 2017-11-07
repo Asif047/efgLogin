@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.example.asif047.efglogin.Fragment.SettingsFragment">
+    tools:context="com.nanotech.asif047.efglogin.Fragment.SettingsFragment">
 
 
 
